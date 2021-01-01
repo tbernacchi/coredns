@@ -22,5 +22,6 @@ data:
         loadbalance
     }
 kind: ConfigMap
+metadata: 
   name: coredns
   namespace: kube-system
